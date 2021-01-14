@@ -1,0 +1,126 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+}
+.padding{
+    padding-bottom:100px;
+}
+h1,h2,h4{color:#363958;font-weight:600}
+h1{font-family: 'Oswald', sans-serif;font-weight:500;font-size:64px;text-transform: uppercase;}
+h1 span.highlight{color:#FABE4C;}
+h2{font-family: 'Oswald', sans-serif;font-weight:500;font-size:48px;text-transform: uppercase;}
+h3{color:#FABE4C;font-size:40px;font-weight:600;}
+h4{font-size:24px;}
+h6{color:#3E3E3E;font-size:18px;}
+a{color:#3B3B3B; transition:all .5s ease;font-size:16px;font-weight:600;}
+a:hover{
+    text-decoration:none;
+    color:aquamarine;
+}
+button.buy_link{
+    outline:none;
+    background:#91AB2A;
+    padding:3% 6%;
+    border:none;
+    border-radius:10px;
+
+}
+button.buy_link a{
+    color:#fff;
+    text-transform: uppercase;
+}
+button.buy_link a:hover{
+    color:#3B3B3B;
+}
+/*Header Part*/
+.header_bg{
+    background:#FFFBF0;
+}
+nav.navbar{
+    padding:20px 0;
+}
+.navbar-brand img{
+    width:300px;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding-left:2.5rem;
+}
+a.nav-link{
+    font-weight:700; 
+}
+div.focus{
+    padding-top:100px;
+}
+div.descript{
+    padding:20px 0;
+}
+/*Product Part*/
+.card{
+    border-radius:10px;
+    border:none;
+    padding:15px;
+    background:#f6f2f2;
+    box-shadow: 5px 5px 15px #959595;
+}
+.card .card_img{
+    width:100%;
+    background:#ddd;
+    border-radius:10px;
+    padding:15px;
+}
+.card .card_img img{
+    height:400px;
+}
+/*Shopping Part*/
+.shop_left{
+    margin-bottom:40px;
+}
+.shop_left img{
+    height:450px;
+}
+.shop_right .option{
+    background: #f6f2f2;
+    box-shadow: 5px 5px 15px #959595;
+    padding:30px 20px;
+    border-radius:15px;
+    margin-bottom: 30px;
+}
+.shop_right .option img{
+    width:80px;
+}
+.shop_right .option .opt_des{
+    margin-left:20px;
+}
+/*Footer Part*/
+.foot_top{
+    background:#282828;
+    padding:80px 0;
+}
+.foot_top .foot_top_main h6{
+    color:#99A0AF;
+}
+.foot_top .foot_top_main a img{
+    width:70%;
+}
+.foot_top .foot_top_main .f_social{
+    padding-top:30px;
+}
+.foot_top .foot_top_main .f_social a{
+    font-size:24px;
+    color:#99A0AF;
+    padding:0 10px;
+}
+.foot_top .foot_top_main .f_social a:hover{
+    color:#fff;
+}
+.footer_main{
+    background:#171717;
+}
+.footer_main h6{
+    color:#99A0AF;
+}
+.footer_main span.f_light{
+    color:#fff;
+}
+
